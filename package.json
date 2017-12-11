@@ -1,8 +1,29 @@
 {
   "name": "repo-combine-bitrix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "start.sh",
   "repository": "git@github.com:denisnovikov/repo-combine-bitrix.git",
   "author": "Denis Novikov <dnovikov1808@gmail.com>",
-  "private": true
+  "private": true,
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "config": {
+    "validate-commit-msg": {
+      "maxSubjectLength": 72,
+      "types": "conventional-commit-types"
+    },
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^0.14.3",
+    "standard-version": "^4.2.0",
+    "validate-commit-msg": "^2.14.0"
+  }
 }

@@ -5,6 +5,11 @@
   "repository": "git@github.com:denisnovikov/repo-combine-bitrix.git",
   "author": "Denis Novikov <dnovikov1808@gmail.com>",
   "private": true,
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
   "config": {
     "validate-commit-msg": {
       "maxSubjectLength": 72,

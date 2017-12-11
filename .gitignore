@@ -26,3 +26,8 @@ node_modules
 
 # dotenv environment variables file
 .env
+
+# gen script (start.sh)
+build/
+static/
+sources/

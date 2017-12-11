@@ -1,6 +1,6 @@
 {
   "name": "repo-combine-bitrix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "start.sh",
   "repository": "git@github.com:denisnovikov/repo-combine-bitrix.git",
   "author": "Denis Novikov <dnovikov1808@gmail.com>",

@@ -1,8 +1,9 @@
 {
-  "name": "repo-combine-bitrix",
-  "version": "1.0.2",
-  "main": "start.sh",
-  "repository": "git@github.com:denisnovikov/repo-combine-bitrix.git",
+  "name": "bitrix-template-combine",
+  "version": "1.0.3",
+  "description": "Скрипт автоматизации рутинных действий при создании шаблона для CMS Bitrix",
+  "main": "./scripts/run.sh",
+  "repository": "git@github.com:denisnovikov/bitrix-template-combine.git",
   "author": "Denis Novikov <dnovikov1808@gmail.com>",
   "private": true,
   "scripts": {
